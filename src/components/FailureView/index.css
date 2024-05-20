@@ -1,0 +1,41 @@
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 30px;
+}
+
+.failure-image {
+  max-width: 650px;
+  height: 500px;
+}
+
+.failure-heading {
+  color: #475569;
+  font-size: 42px;
+  font-weight: 600;
+  font-family: 'Roboto';
+}
+
+.failure-description {
+  color: #475569;
+  font-size: 18px;
+  font-family: 'Roboto';
+  padding-bottom: 15px;
+  font-weight: 500;
+}
+
+.course-list-retry-button {
+  background-color: #4656a1;
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #ffffff;
+  height: 40px;
+  width: 120px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
